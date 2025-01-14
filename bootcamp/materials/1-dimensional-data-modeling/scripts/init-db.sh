@@ -13,6 +13,7 @@ pg_restore \
 # Check if the path is a directory using the -d flag and
 #  there are SQL files in the directory using the -f command
 #   (the [] brackets are used for conditional expressions)
+
 if [ -d /docker-entrypoint-initdb.d/homework ]; then
   echo "[SUCCESS]: Located homework directory"
   # Run any additional initialization scripts
@@ -27,3 +28,14 @@ if [ -d /docker-entrypoint-initdb.d/homework ]; then
 else
     echo "[ERROR] Directory not found: /docker-entrypoint-initdb.d/homework/"
 fi
+
+
+# Modify pg_hba.conf to use 'md5' authentication and allow all incoming connections
+echo "host all all 0.0.0.0/0 md5" >> "$PGDATA/pg_hba.conf"
+echo "host all all ::0/0 md5" >> "$PGDATA/pg_hba.conf"
+
+# Allow PostgreSQL to listen on all IP addresses
+echo "listen_addresses='*'" >> "$PGDATA/postgresql.conf"
+
+# Reload PostgreSQL configuration to apply changes
+pg_ctl reload
