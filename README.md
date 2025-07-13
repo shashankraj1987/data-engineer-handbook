@@ -1,4 +1,5 @@
 # The Data Engineering Handbook
+<a href="https://trendshift.io/repositories/8755" target="_blank"><img src="https://trendshift.io/api/badge/repositories/8755" alt="DataExpert-io%2Fdata-engineer-handbook | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
 This repo has all the resources you need to become an amazing data engineer!
 
@@ -33,7 +34,7 @@ Top 3 must read books are:
 Top must-join communities for DE:
 - [DataExpert.io Community Discord](https://discord.gg/JGumAXncAK)
 - [Data Talks Club Slack](https://datatalks.club/slack)
-- [Data Engineer Things Community](https://www.dataengineerthings.org/aboutus/)
+- [Data Engineer Things Community](https://dataengineerthings.slack.com/join/shared_invite/zt-34mqkmrxs-59yWxQRruwq5_h~7PKRFuQ#/shared-invite/email)
 
 Top must-join communities for ML:
 - [AdalFlow Discord](https://discord.com/invite/ezzszrRZvT)
@@ -71,6 +72,7 @@ Top must-join communities for ML:
   - [Soda](https://www.soda.io/)
   - [DQOps](https://dqops.com/)
   - [HEDDA.IO](https://hedda.io)
+  - [Dingo](https://github.com/MigoXLab/dingo)
 - Education Companies
   - [DataExpert.io](https://www.dataexpert.io)
   - [LearnDataEngineering.com](https://www.learndataengineering.com)
@@ -115,6 +117,8 @@ Top must-join communities for ML:
   - [Responsive](https://www.responsive.dev/)
   - [RisingWave](https://risingwave.com/)
   - [Striim](https://www.striim.com/)
+- Data Lineage
+  - [OpenLineage](https://openlineage.io/)
 
 
 ### Data Engineering blogs of companies:
@@ -232,6 +236,7 @@ Here's the mostly comprehensive list of data engineering creators:
 | Subhankar                | [Subhankar](https://www.linkedin.com/in/subhankarumass/)                                            | 5,000+         |
 | Nitin                    | [Nitin](https://www.linkedin.com/in/tomernitin29/)                                                        | N/A           |
 | Hassaan                    | [Hassaan](https://www.linkedin.com/in/shassaan/)                                                        | 5000+           |
+| Javier de la Torre             | [Javier](www.linkedin.com/in/javier-de-la-torre-medina)                                                        | 5000+           |
 
 
 #### X/Twitter
